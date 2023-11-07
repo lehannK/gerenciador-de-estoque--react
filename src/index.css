@@ -202,3 +202,13 @@ select {
   margin: 1rem 0;
   text-align: center;
 }
+
+img {
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}

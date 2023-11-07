@@ -1,11 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
+import logoCompass from "../assets/compassslogo.png";
 
 export default function RootLayout() {
   return (
     <>
       <header>
         <Link to="/" className="logo">
-          REACT STOCK
+          Gerenciamento de estoque - CompaSSS
         </Link>
         <nav>
           <Link to="/">Início</Link>
@@ -15,7 +16,10 @@ export default function RootLayout() {
       <div>
         <Outlet />
       </div>
-      <footer>Feito com React e React Router !</footer>
+      <footer>
+        Feito com React e React Router !
+        <img src={logoCompass} />
+      </footer>
     </>
   );
 }

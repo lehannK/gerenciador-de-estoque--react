@@ -12,7 +12,7 @@ export default function ItemForm({ itemToUpdate }) {
     name: "",
     description: "",
     quantity: 0,
-    price: 0,
+    contract: "",
     category: "",
   };
 
@@ -73,15 +73,15 @@ export default function ItemForm({ itemToUpdate }) {
           />
         </div>
         <div>
-          <label htmlFor="price">Preço</label>
+          <label htmlFor="contract">Contrato</label>
           <input
-            type="number"
-            name="price"
-            id="price"
+            type="string"
+            name="contract"
+            id="contract"
             required
             min={0.0}
             step={0.01}
-            value={item.price}
+            value={item.contract}
             onChange={handleChange}
           />
         </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const StockContext = createContext({});
 
-StockContextProvider.PropTypes = {
+StockContextProvider.propTypes = {
   children: PropTypes.node,
 };
 

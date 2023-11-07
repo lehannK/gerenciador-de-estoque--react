@@ -9,7 +9,7 @@ export default function ItemsTable() {
     <table>
       <thead>
         <tr>
-          <th>ID</th>
+          <th>Contrato</th>
           <th>Nome</th>
           <th>Em Estoque</th>
           <th>Categoria</th>
@@ -19,7 +19,7 @@ export default function ItemsTable() {
       <tbody>
         {items.map((item) => (
           <tr key={item.id}>
-            <td>{item.id}</td>
+            <td>{item.contract}</td>
             <td>{item.name}</td>
             <td>{item.quantity} unid.</td>
             <td>{item.category}</td>

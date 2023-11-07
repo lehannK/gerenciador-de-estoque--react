@@ -4,7 +4,7 @@ export default function ItemsLayout() {
   const { pathname } = useLocation();
   return (
     <main>
-      <h1>Stock Items</h1>
+      <h1>Lista de equipamentos</h1>
       <div className="tabs">
         <Link
           to="/items"

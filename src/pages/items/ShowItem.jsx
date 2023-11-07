@@ -18,7 +18,7 @@ export default function ShowItem() {
       <div className="row">
         <span>Categoria: {item.category}</span>
         <span>Quantidade em estoque: {item.quantity}</span>
-        <span>Preço: R$ {item.price}</span>
+        <span>Contrato: {item.contract}</span>
       </div>
       <p>{item.description}</p>
       <div className="row">
