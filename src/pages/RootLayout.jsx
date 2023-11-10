@@ -17,7 +17,6 @@ export default function RootLayout() {
         <Outlet />
       </div>
       <footer>
-        Feito com React e React Router !
         <img src={logoCompass} />
       </footer>
     </>

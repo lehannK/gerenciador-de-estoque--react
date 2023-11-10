@@ -210,5 +210,5 @@ img {
 footer {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  align-self: flex-end;
 }
